@@ -1,0 +1,348 @@
+#mynavbar{
+    height: 5rem;
+    width: 101%;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    z-index: 3;
+}
+#mynavbar:hover{
+    color:#00ccb1 ;
+}
+.logo-docplanner{
+    width: 20%;
+
+}
+.part1{
+    padding-top: 8%;
+}
+.part1 img{
+    padding-left: 30%;
+}
+
+.liens1 a:hover{
+    color: #00ccb1;
+    
+}
+.titre1 h1{
+    color: #00b39b;
+    font-size: 240%;
+    font-family: 'PT Sans', sans-serif;
+}
+.part2{
+    font-size:113%;
+    padding-bottom: 5rem;
+}
+.part2 p{
+    margin-top: 1rem;
+    color: #747474;
+}
+.vert {
+    background-color: #00ccb1;
+    width: 48%;
+    height: 25rem;
+    border-radius: 10px;
+}
+.img-part{
+    display: flex;
+}   
+.button-vert{
+    margin-left: 2rem;
+    width: 21%;
+}
+.img-vert{
+    margin-left: 7rem;
+    overflow: hidden;
+}
+.bleu {
+    background-color: #3d83df;
+    height: 25rem;
+    width: 48%;
+    border-radius: 10px;
+}
+.img-bleu{
+    
+    margin-left: 16rem;
+    overflow: hidden;
+}
+.colorbox{
+    margin-bottom: 3rem;
+    justify-content: space-around;
+
+}
+.txt-part span {
+    display: block;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: whitesmoke;
+}
+
+
+.txt-part p{
+    font-size: 180%;
+    color: white;   
+    margin-left: 2rem
+}
+.icon-links-txt{
+    color: #00b39b;
+    font-size: 200%;
+    font-family: 'PT Sans', sans-serif
+}
+
+.icon-links a{
+    text-decoration-color:none;
+    text-decoration-line: none;
+    font-size: 170%;
+    font-family: 'PT Sans', sans-serif; 
+    color: #747474 
+}
+.icon-links a:hover{
+    color: #00ccb1
+}
+.ligne1{
+    display: flex;
+    justify-content: space-around;
+}
+.ligne2{
+    margin: 2rem;
+}
+.backg{
+    background: #def8f7;
+    background-image: url(capture-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+    background-position-y: 150%;
+    background-size: 22% ;
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    height: 38rem;
+
+}
+.title-side{
+    margin-top:2rem; 
+}
+.title-side p{
+    color: #00b39b;
+    font-size: 220%;
+    font-family: 'PT Sans', sans-serif;
+}
+.title-side span{
+    color: #747474
+}
+.boxes-side{
+    max-width: 45%;
+}
+
+.boxG{
+    margin-top: 1.5rem;
+}
+.box1{
+    background-color: white;
+    height: 15rem;
+    border-radius: 3%;
+    text-align: center;
+}
+.box2{
+    background-color: white;
+    height: 15rem;
+    border-radius: 3%;
+    text-align: center;
+}
+.box3{
+    background-color: white;
+    height: 15rem;
+    border-radius: 3%;
+    text-align: center;
+}
+.box4{
+    background-color: white;
+    height: 15rem;
+    border-radius: 3%;
+    text-align: center;
+}
+.boxG span{
+    color: #747474;
+    font-size: 0.8em
+}
+.boxD span{
+    color: #747474;
+    font-size: 0.8em
+}
+.boxG p{
+    color: #00b39b;
+    font-size: 1.2em;
+}
+.boxD p{
+    color: #00b39b;
+    font-size: 1.2em;
+}
+.boxG img{
+    margin-top: 1.5rem
+}
+.boxD img{
+    margin-top: 1.5rem
+}
+.titre2 h2{
+    color: #00b39b;
+    font-size: 220%;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+.txt3 p{
+    color: #747474;
+    font-size: 0.8em;
+    text-align: center;
+}
+.villes{
+    display: flex; 
+    justify-content: center;
+    margin-bottom:4% 
+
+}
+.villes img {
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.villes-nom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.Warsaw{
+    height: 23rem;
+    border-radius: 3%;
+    text-align: left;
+    margin: 1rem;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    color: #747474
+    
+}
+.Barcelona{
+    height: 23rem;
+    border-radius: 3%;
+    text-align: left;
+    margin: 1rem;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    color: #747474
+}
+.Istanbul{
+    height: 23rem;
+    border-radius: 3%;
+    text-align: left;
+    margin: 1rem;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    color: #747474
+}
+.Rome{
+    height: 23rem;
+    border-radius: 3%;
+    text-align: left;
+    margin: 1rem;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    color: #747474
+}
+.Mexico{
+    height: 23rem;
+    border-radius: 3%;
+    text-align: left;
+    margin: 1rem;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    color: #747474
+}
+.Curitiba{
+    height: 23rem;
+    border-radius: 3%;
+    text-align: left; 
+    margin: 1rem;
+    box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+    color: #747474
+}
+.txt4{
+    padding-top: 2%;
+    color: #747474;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #eef2f2;
+}
+.part3{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0px;
+}
+
+  @media only screen and (max-width: 1200px) {
+     
+
+    .part3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 5% 0px;
+        flex-direction: column;
+        height: 57rem;
+    }
+    .vert {
+        
+        width: 100%;
+        
+    }
+    .bleu{
+        width: 100%;
+  }
+}
+@media screen and (max-width: 600px){
+    .icon-links{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .icon-links{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .icon-links{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width: 1200px){
+    .boxG span {
+        font-size: 0.5em;
+    }
+}
+@media screen and (max-width: 1200px){
+    .boxD span {
+        font-size: 0.5em;
+}
+}
+@media screen and (max-width: 1200px){
+    .boxD p {
+        font-size: 0.6em;
+}
+}
+@media screen and (max-width: 1200px){
+    .boxD p {
+        font-size: 0.6em;
+}
+}
+@media screen and (max-width: 1200px){
+    .boxG p {
+        font-size: 0.6em;
+}
+}@media screen and (max-width: 1200px){
+    .boxG p {
+        font-size: 0.6em;
+}
+}
+@media screen and (max-width: 600px){
+    .ness {
+    flex-direction: column
+}
+}
+@media screen and (max-width: 600px){
+    .backg{
+        height: 61rem;
+}
+}
